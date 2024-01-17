@@ -12,9 +12,8 @@ import Video from "@/components/Video";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Free Next.js Template for Startup and SaaS",
-  description: "This is Home for Startup Nextjs Template",
-  // other metadata
+  title: "UnilCursos - Desperte seu Potencial com a Maior Plataforma de Cursos Online",
+  description: "Descubra a Excelência Educativa na Unilcursos: Sua Maior Plataforma de Divulgação e Acesso a Cursos Digitais de Qualidade",
 };
 
 export default function Home() {
