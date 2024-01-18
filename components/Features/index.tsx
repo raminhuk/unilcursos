@@ -5,10 +5,10 @@ import featuresData from "./featuresData";
 const Features = () => {
   return (
     <>
-      <section id="features" className="py-16 md:py-20 lg:py-28">
+      <section id="features" className="py-12 md:py-16 lg:py-18">
         <div className="container">
           <SectionTitle
-            title="Diferenciais Unilcurso"
+            title="Diferenciais UnilCurso"
             paragraph="Oferecemos cursos de alta qualidade, aprendizado flexível, certificações reconhecidas e suporte personalizado. Descubra uma experiência educacional única, constantemente atualizada e conectada a uma vibrante comunidade de aprendizes."
             center
           />

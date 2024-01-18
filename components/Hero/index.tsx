@@ -15,7 +15,7 @@ const Hero = () => {
                 data-wow-delay=".2s"
               >
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                    Unilcursos a plataforma líder em divulgação de cursos online
+                    UnilCursos a plataforma líder em divulgação de cursos online
                 </h1>
                 <p className="dark:text-body-color-dark mb-12 text-base !leading-relaxed text-body-color sm:text-lg md:text-xl">
                 Descubra o poder da educação digital com UnilCursos, a maior plataforma de divulgação de cursos online. Conectamos você a oportunidades de aprendizado excepcionais, impulsionando seu crescimento pessoal e profissional. Explore nossa variedade de cursos, e embarque na jornada de descoberta e aprimoramento com a confiança de estar na plataforma líder em divulgação educacional.
