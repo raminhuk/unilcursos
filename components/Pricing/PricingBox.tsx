@@ -1,3 +1,4 @@
+import { sendGAEvent } from "@next/third-parties/google";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -19,6 +20,7 @@ const PricingBox = (props: {
                 <div
                     className="wow fadeInUp shadow-three overflow-hidden dark:bg-gray-dark dark:shadow-two dark:hover:shadow-gray-dark relative z-10 rounded-md bg-white hover:shadow-one"
                     data-wow-delay=".1s"
+                    onClick={() => sendGAEvent({ event: 'click_course', value: title})}
                 >
                     <div className="relative">
                         <Image className="w-full h-auto" src={image} alt={title} width={320} height={320} />
