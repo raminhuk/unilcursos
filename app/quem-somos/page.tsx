@@ -6,7 +6,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Quem somos",
-  description: "UnilCursos a plataforma líder em divulgação de cursos online",
+  description: "Descubra o poder da educação digital com UnilCursos, a maior plataforma de divulgação de cursos online",
   // other metadata
 };
 

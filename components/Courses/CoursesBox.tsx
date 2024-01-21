@@ -2,7 +2,7 @@ import { sendGAEvent } from "@next/third-parties/google";
 import Image from "next/image";
 import Link from "next/link";
 
-const PricingBox = (props: {
+const CoursesBox = (props: {
     title: string;
     subtitle: string;
     price: string;
@@ -93,4 +93,4 @@ const PricingBox = (props: {
     );
 };
 
-export default PricingBox;
+export default CoursesBox;

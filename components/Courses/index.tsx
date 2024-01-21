@@ -1,12 +1,10 @@
 "use client";
-import { useState } from "react";
 import SectionTitle from "../Common/SectionTitle";
 import OfferList from "./OfferList";
-import PricingBox from "./PricingBox";
 import courseData from "./cursoData";
+import CoursesBox from "./CoursesBox";
 
-const Pricing = () => {
-    const [isMonthly, setIsMonthly] = useState(true);
+const Courses = () => {
 
     return (
         <section id="pricing" className="relative z-10 py-12 md:py-16 lg:py-18">
@@ -60,7 +58,7 @@ const Pricing = () => {
 
                 <div className="grid grid-cols-1 mb:gap-x-16 gap-x-20 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
                     {courseData.map((course) => (
-                        <PricingBox
+                        <CoursesBox
                             key={course.id}
                             title={course.title}
                             subtitle={course.description}
@@ -72,7 +70,7 @@ const Pricing = () => {
                             {course.offerList.map((offerList, key) => (
                                 <OfferList key={key} text={offerList} status="active" />
                             ))}
-                        </PricingBox>
+                        </CoursesBox>
                     ))}
                 </div>
             </div>
@@ -135,4 +133,4 @@ const Pricing = () => {
     );
 };
 
-export default Pricing;
+export default Courses;
