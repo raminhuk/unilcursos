@@ -30,4 +30,10 @@
     <changefreq>weekly</changefreq>
     <priority>1.00</priority>
   </url>
+  <url>
+    <loc>https://unilcursos.com.br/massoterapia</loc>
+    <lastmod>2024-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.00</priority>
+  </url>
 </urlset>
