@@ -13,7 +13,6 @@ const CoursesBox = (props: {
 }) => {
     const { title, subtitle, price, subPrice, image, link, children } = props;
 
-
     return (
         <div className="w-full">
             <Link href={link} target="_blank">
@@ -26,11 +25,11 @@ const CoursesBox = (props: {
                         <Image className="w-full h-auto" src={image} alt={title} width={320} height={320} />
                     </div>
                     <div className="w-full px-6 py-4 ">
-                        <h3 className="mb-2 leading-7 text-2xl font-bold text-black dark:text-white ">
+                        <h2 className="mb-2 leading-7 text-xl font-bold text-black dark:text-white ">
                             {title}
-                        </h3>
+                        </h2>
                         <div className="flex flex-col mb-2">
-                            <h3 className="price text-xl font-bold text-primary dark:text-white">
+                            <h3 className="price text-2xl font-bold text-primary dark:text-white">
                                 R$ <span className="amount">{price}</span>
                             </h3>
                             <p className="text-sm text-gray-500">{subPrice}</p>

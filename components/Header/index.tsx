@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
+import Logo from "../logo";
 
 const Header = () => {
     // Navbar toggle
@@ -41,7 +42,7 @@ const Header = () => {
     return (
         <>
             <header
-                className={`header left-0 top-0 z-40 flex w-full items-center ${sticky
+                className={`header left-0 top-0 z-40 flex w-full items-center ${usePathName !== '/' ? 'border bg-gray-100' : ''} ${sticky
                         ? "dark:bg-gray-dark dark:shadow-sticky-dark fixed z-[9999] bg-white !bg-opacity-80 shadow-sticky backdrop-blur-sm transition"
                         : "absolute bg-transparent"
                     }`}
@@ -54,13 +55,7 @@ const Header = () => {
                                 className={`header-logo block w-full ${sticky ? "py-5 lg:py-2" : "py-8"
                                     } `}
                             >
-                                <Image
-                                    src="/images/logo/logo.svg"
-                                    alt="logo"
-                                    width={260}
-                                    height={48}
-                                    className="w-full dark:hidden"
-                                />
+                                <Logo />
                                 {/* <Image
                   src="/images/logo/logo.svg"
                   alt="logo"
