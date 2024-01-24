@@ -68,7 +68,7 @@ Certificado com carga horária, CNPJ e válido em todo território nacional em c
                                 </div>
                             </div>
                         </div>
-                        <div className="bg-white w-5/12 z-50 p-6 border rounded flex flex-col gap-4 sticky top-32 max-lg:fixed max-lg:bottom-0 max-lg:top-auto max-lg:left-0 max-lg:p-1 max-lg:flex-row max-lg:w-full">
+                        <div className="bg-white w-3/12 z-50 p-6 border rounded flex flex-col gap-4 sticky top-32 max-lg:fixed max-lg:bottom-0 max-lg:top-auto max-lg:left-0 max-lg:p-1 max-lg:flex-row max-lg:w-full">
                             <div className="max-lg:flex gap-2">
                                 <Image className="w-full h-auto mb-6 max-lg:w-16 max-lg:mb-0 max-lg:flex-2" src="/images/course/curso-de-massoterapia-profissional.webp" alt="Massoterapia" width={320} height={320}/>
                                 <span className="text-base text-body-color max-lg:text-base max-lg:hidden">de <span className="line-through">R$ 159,90</span> por apenas</span>

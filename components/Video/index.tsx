@@ -22,7 +22,7 @@ const Video = () => {
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full">
             <div
-              className="wow fadeInUp mx-auto max-w-full overflow-hidden rounded-md"
+              className="wow fadeInUp mx-auto -ml-3 max-w-full overflow-hidden rounded-md"
               data-wow-delay=".15s"
             >
               <div className="relative aspect-[77/40] items-center justify-center">
