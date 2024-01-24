@@ -5,21 +5,23 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog Page | Free Next.js Template for Startup and SaaS",
-  description: "This is Blog Page for Startup Nextjs Template",
-  // other metadata
+    title: "Blog - UnilCursos",
+    description: "Fique atualizado e descubra as últimas novidades no mundo da educação no Blog UnilCursos. Explore artigos informativos, análises especializadas e dicas práticas sobre cursos, carreiras e tendências educacionais. Acompanhe nosso blog para uma jornada educacional enriquecedora e esteja sempre um passo à frente no seu caminho acadêmico e profissional",
+    // other metadata
 };
 
 const Blog = () => {
-  return (
-    <>
-      <Breadcrumb
-        pageName="Blog Grid"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
-      />
+    return (
+        <>
+            <Breadcrumb
+                pageName="Blog"
+                description="Fique atualizado e descubra as últimas novidades no mundo da educação no Blog UnilCursos."
+            />
 
-      <section className="pb-[120px] pt-[120px]">
-        <div className="container">
+            <div className="container text-center my-20">
+                <h1>Blog</h1>
+                Em breve
+                {/* <div className="container">
           <div className="-mx-4 flex flex-wrap justify-center">
             {blogData.map((blog) => (
               <div
@@ -93,10 +95,10 @@ const Blog = () => {
               </ul>
             </div>
           </div>
-        </div>
-      </section>
-    </>
-  );
+        </div> */}
+            </div>
+        </>
+    );
 };
 
 export default Blog;

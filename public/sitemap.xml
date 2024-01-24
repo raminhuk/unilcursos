@@ -10,7 +10,7 @@
     <loc>https://unilcursos.com.br/quem-somos</loc>
     <lastmod>2024-01-20</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>1.00</priority>
+    <priority>2.00</priority>
   </url>
   <url>
     <loc>https://unilcursos.com.br/cursos</loc>
@@ -22,13 +22,13 @@
     <loc>https://unilcursos.com.br/blog</loc>
     <lastmod>2024-01-20</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>1.00</priority>
+    <priority>2.00</priority>
   </url>
   <url>
     <loc>https://unilcursos.com.br/contato</loc>
     <lastmod>2024-01-20</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>1.00</priority>
+    <priority>2.00</priority>
   </url>
   <url>
     <loc>https://unilcursos.com.br/massoterapia</loc>
