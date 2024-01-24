@@ -8,9 +8,9 @@ const Logo = () => {
                 alt="logo"
                 width={65}
                 height={65}
-                className="dark:hidden"
+                className="dark:hidden max-sm:w-12 max-sm:h-auto"
             />
-            <span className="text-3xl font-extrabold text-secondary">UnilCursos</span>
+            <span className="text-3xl font-extrabold text-secondary max-sm:text-2xl">UnilCursos</span>
         </div>
     );
 };
