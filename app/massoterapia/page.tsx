@@ -1,11 +1,7 @@
-import AboutSectionOne from "@/components/About/AboutSectionOne";
-import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import BtnComprar from "@/components/Buttons/BtnComprar";
 import BtnDetalhes from "@/components/Buttons/BtnDetalhes";
-import Breadcrumb from "@/components/Common/Breadcrumb";
 import Section from "@/components/Itens";
 import Video from "@/components/Video";
-import { sendGAEvent } from "@next/third-parties/google";
 
 import { Metadata } from "next";
 import Image from "next/image";
@@ -30,7 +26,7 @@ const Massoterapia = () => {
                                     <p>Descubra o universo da Massoterapia com nosso curso de alta qualidade. Acesso ilimitado, certificado incluso e aulas detalhadas criadas como uma verdadeira OBRA-PRIMA, moldada para todos, desde iniciantes até profissionais ávidos por inovação.</p>
                                 </div>
 
-                                <Video />
+                                <Video urlCapa="/images/video/thmbnail-massoterapia-1.png" videoId="LmbCruQ7ugw"/>
                             </div>
 
                             <div className="flex w-full gap-12">
@@ -84,8 +80,8 @@ Certificado com carga horária, CNPJ e válido em todo território nacional em c
                             </div>
 
                             <div className="flex flex-col gap-4 max-lg:flex-1">
-                                <BtnDetalhes />
-                                <BtnComprar />
+                                <BtnDetalhes linkBtn="https://go.hotmart.com/Q90205632R"/>
+                                <BtnComprar linkBtn="https://go.hotmart.com/Q90205632R?ap=4fad"/>
                             </div>
                         </div>
                     </div>
