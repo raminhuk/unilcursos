@@ -4,7 +4,7 @@ import Courses from "@/components/Courses";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Cursos",
+  title: "Cursos - UnilCursos",
   description: "Torne-se especialista com nossos cursos online: Explore uma variedade de programas educacionais de alta qualidade, projetados para impulsionar seu conhecimento e avançar em sua carreira",
   // other metadata
 };

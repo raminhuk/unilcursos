@@ -3,6 +3,7 @@ import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import Section from "@/components/Itens";
 import Video from "@/components/Video";
+import { sendGAEvent } from "@next/third-parties/google";
 
 import { Metadata } from "next";
 import Image from "next/image";
@@ -81,13 +82,13 @@ Certificado com carga horária, CNPJ e válido em todo território nacional em c
                             </div>
 
                             <div className="flex flex-col gap-4 max-lg:flex-1">
-                                <Link className="flex w-full max-lg:hidden" href="https://cursodemassoterapia.com/?ref=Q90205632R">
+                                <Link className="flex w-full max-lg:hidden" href="https://cursodemassoterapia.com/?ref=Q90205632R" onClick={() => sendGAEvent({ event: 'clickCourseDetails', value: 'Mais detalhes - Massoterapia' })}>
                                     <button className="flex w-full items-center justify-center rounded-sm bg-gray-200 p-2 text-base text-gray-500 transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
                                         Mais detalhes
                                     </button>
                                 </Link>
-                                <Link className="flex w-full" href="https://go.hotmart.com/Q90205632R?ap=4fad">
-                                <button type="button" className="w-full text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 font-medium rounded-sm text-xl px-2 py-4 text-center font-bold">Inscreva-se</button>
+                                <Link className="flex w-full" href="https://go.hotmart.com/Q90205632R?ap=4fad" onClick={() => sendGAEvent({ event: 'clickPayment', value: 'Inscreva-se - Massoterapia' })}>
+                                    <button type="button" className="w-full text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 font-medium rounded-sm text-xl px-2 py-4 text-center font-bold">Inscreva-se</button>
                                 </Link>
                             </div>
                         </div>
