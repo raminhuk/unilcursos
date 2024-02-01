@@ -44,7 +44,7 @@ const Header = () => {
             <header
                 className={`header left-0 top-0 z-40 flex w-full items-center ${usePathName !== '/' ? 'border bg-gray-100' : ''} ${sticky
                         ? "dark:bg-gray-dark dark:shadow-sticky-dark fixed z-[9999] bg-white !bg-opacity-80 shadow-sticky backdrop-blur-sm transition"
-                        : "absolute bg-transparent"
+                        : "absolute max-lg:bg-indigo-50"
                     }`}
             >
                 <div className="container">
@@ -52,7 +52,7 @@ const Header = () => {
                         <div className="w-72 max-w-full px-4 xl:mr-12">
                             <Link
                                 href="/"
-                                className={`header-logo block w-full ${sticky ? "py-4 lg:py-2" : "py-8 max-lg:py-2"
+                                className={`header-logo block w-full ${sticky ? "py-4 lg:py-2" : "py-8 max-lg:py-4"
                                     } `}
                             >
                                 <Logo />

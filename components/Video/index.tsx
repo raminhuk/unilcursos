@@ -10,7 +10,7 @@ const Video = ({ urlCapa, videoId }) => {
     const [isOpen, setOpen] = useState(false);
 
     return (
-        <section className="relative z-10 py-6 md:py-8 lg:py-12">
+        <section className="relative z-90 py-6 md:py-8 lg:py-12">
             <div className="container">
                 {/* <SectionTitle
           title="We are ready to help"

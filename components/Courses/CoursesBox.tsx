@@ -15,7 +15,7 @@ const CoursesBox = (props: {
 
     return (
         <div className="w-full">
-            <Link href={link} target="_blank">
+            <Link href={link}>
                 <div
                     className="wow fadeInUp shadow-three overflow-hidden dark:bg-gray-dark dark:shadow-two dark:hover:shadow-gray-dark relative z-10 rounded-md bg-white hover:shadow-one"
                     data-wow-delay=".1s"

@@ -11,7 +11,7 @@ const Courses = () => {
             <div className="container">
                 <SectionTitle
                     title="Cursos"
-                    paragraph="Torne-se especialista com nossos cursos online: Explore uma variedade de programas educacionais de alta qualidade, projetados para impulsionar seu conhecimento e avançar em sua carreira"
+                    paragraph="Desenvolva sua expertise com a nossa seleção de cursos online: Descubra uma diversidade de programas educacionais de alta qualidade, elaborados para aprimorar seus conhecimentos e impulsionar sua trajetória profissional"
                     center
                     width="665px"
                 />
