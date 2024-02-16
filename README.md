@@ -22,7 +22,7 @@ and Much More ...
 
 + Clone this repository
 ```jsx
-git clone https://github.com/raminhuk/react-todo-lis.git
+git clone https://github.com/raminhuk/unilcursos.git
 ```
 + Navigate to the unilcursos folder
 ```jsx
